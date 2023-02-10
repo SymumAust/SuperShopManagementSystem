@@ -190,8 +190,11 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\camera_pic.jpg" />
+    <Content Include="Images\Hua.jpg" />
+    <Content Include="Images\Hua2.jpg" />
     <Content Include="Images\iphone_pic.jpg" />
     <Content Include="Images\motorbike_pic.jpg" />
+    <Content Include="Images\searchIcon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
