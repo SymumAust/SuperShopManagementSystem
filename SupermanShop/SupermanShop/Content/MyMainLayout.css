@@ -314,11 +314,7 @@ h6 {
         border-radius: 4px 0 4px 0;
     }
 
-.copyright {
-    text-align: right;
-}
-
-.copyright-right {
+.copyright .copyright-right {
     text-align: right;
 }
 
