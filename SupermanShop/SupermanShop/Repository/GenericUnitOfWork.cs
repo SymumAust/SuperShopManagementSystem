@@ -1,4 +1,4 @@
-﻿using OnlineShoppingStore.Repository;
+﻿using SupermanShop.Repository;
 using SupermanShop.DAL;
 using System;
 using System.Collections.Generic;

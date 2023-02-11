@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
 
-namespace OnlineShoppingStore.Repository
+namespace SupermanShop.Repository
 {
     public interface iRepository<Tbl_Entity> where Tbl_Entity : class
     {
