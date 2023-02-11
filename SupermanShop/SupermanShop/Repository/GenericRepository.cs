@@ -1,4 +1,5 @@
 ﻿using OnlineShoppingStore.DAL;
+using SupermanShop.DAL;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -13,11 +14,17 @@ namespace OnlineShoppingStore.Repository
         DbSet<Tbl_Entity> _dbSet;
 
         private dbMyOnlineShoppingEntities _DBEntity;
+        private dbMyOnlineShoppingEntities dBEntity;
 
         public GenericRepository(dbMyOnlineShoppingEntities DBEntity)
         {
             _DBEntity = DBEntity;
             _dbSet = _DBEntity.Set<Tbl_Entity>();
+        }
+
+        public GenericRepository(dbMyOnlineShoppingEntities dBEntity)
+        {
+            this.dBEntity = dBEntity;
         }
 
         public void Add(Tbl_Entity entity)
