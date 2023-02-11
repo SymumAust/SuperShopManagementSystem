@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     @Scripts.Render("~/bundles/modernizr")
     <link href="~/Content/MyMainLayout.css" rel="stylesheet" />
@@ -62,7 +63,25 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <div class="row">
+                <div class="col-md-12 copyright">
+                    <div class="col-md-6 copyright-left">
+                        <p>&copy; @DateTime.Now.Year - Superman Shop. All right reserved.</p>
+                    </div>
+
+                    <div class="col-md-6 ">
+                        <div class="copyright-right">
+                            <ul class="list-unstyled list-social">
+                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
         </footer>
     </div>
 
