@@ -250,7 +250,6 @@
     <Content Include="Images\Hua2.jpg" />
     <Content Include="Images\iphone_pic.jpg" />
     <Content Include="Images\motorbike_pic.jpg" />
-    <Content Include="Images\searchIcon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="DAL\Model1.edmx">
